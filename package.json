@@ -1,0 +1,31 @@
+{
+  "name": "tinyjs-framework-ts",
+  "version": "1.0.0",
+  "description": "Tiny JavaScript framework with TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "type": "module",
+  "files": [
+    "dist/**/*"             
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guilhermebolfe11/TinyTS.git"
+  },
+  "keywords": [
+    "javascript",
+    "framework"
+  ],  
+  "author": "Guilherme Bolfe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guilhermebolfe11/TinyTS/issues"
+  },
+  "homepage": "https://github.com/guilhermebolfe11/TinyTS#readme",
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  }
+}
