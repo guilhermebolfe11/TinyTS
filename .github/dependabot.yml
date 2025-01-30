@@ -3,6 +3,6 @@ version: 2
 updates:
   - package-ecosystem: "npm"
     directory: "/"
-    target-branch: main
+    target-branch: master
     schedule:
       interval: "weekly"
